@@ -1,0 +1,901 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 55;
+ }
+
+ .logo svg{
+    width: 200px;
+ }
+
+ .logo svg:hover{
+   transform: scale(1.1);
+   transition: ease-in 1s;
+}
+
+ .meniu{
+    display: none;
+ }
+ .meniu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+ }
+
+ .meniu a:hover {
+   transform: scale(1.2) !important;
+}
+
+ .burger{
+    color: rgba(255, 108, 60, 1);
+    
+ }
+
+ .hero{
+    height: 80vh;
+    background-image: linear-gradient(to right bottom, #1b1d1f, #222426, #2a2c2e, #323335, #3a3b3d);    margin-top: -85px;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 0 0 40px 40px;
+    overflow: hidden;
+ }
+
+ .hero-info{
+    padding-top: 150px;
+    display: flex;
+    position: relative;
+ }
+
+ .hero-photo{
+    margin-top: 212px;
+    transition: 1s;
+    position: relative;
+    z-index: 10;
+ }
+
+ .user{
+   display: flex;
+   gap: 40px;
+   align-items: center;
+ }
+
+ .user svg:hover{
+   transform: translateY(-10px);
+   transition: ease-in-out 0.5s;
+}
+
+ .bike-hero img{
+    width: 600px;
+    margin-left: 50px;
+ }
+
+ .text1{
+    max-width: 450px;
+    color: white;
+    position: absolute;
+    z-index: 40;
+ }
+
+ .text1 h1{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+ }
+
+ .hero-b{
+    margin-top: 15px;
+      
+ }
+
+ .hero-b button{
+    padding: 5px 36px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ 
+ .hero-b button {
+   animation: gelatine 1.5s infinite;
+ }
+ @keyframes gelatine {
+   from, to { transform: scale(1, 1); }
+   25% { transform: scale(0.9, 1.1); }
+   50% { transform: scale(1.1, 0.9); }
+   75% { transform: scale(0.95, 1.05); }
+ }
+ 
+
+ .text2{
+    display: none;
+ }
+
+ .models{
+    display: flex ;
+   flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+ }
+
+ .models h1{
+    color: rgba(255, 108, 60, 1);
+    text-transform: uppercase;
+ }
+
+ .models a{
+    color: black;
+ }
+
+ .bide-d{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .bike-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10px;
+ }
+
+ .txt p{
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+
+ .text1 p{
+    color: rgba(167, 167, 167, 1);
+ }
+
+ .first-bike{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(27, 29, 31, 1);
+    margin-bottom: 15px;
+    color: white;
+ }
+
+ .first-bike img{
+    width: 100%;
+ }
+
+ .models-bikes{
+    padding: 0 8px;
+ }
+
+ .bide-d p{
+    color: rgba(131, 128, 129, 1);
+ }
+
+ .undercover{
+   background-image: linear-gradient(to right top, #1b1d1f, #2b2d2e, #3b3d3f, #4d4e4f, #5f6061);   
+   border-radius: 40px 40px 40px 40px;
+   margin-top: 40px;
+   margin-bottom: 50px;
+ }
+
+ .embrace h1{
+    color: white;
+    padding-top: 40px;
+ }
+
+ 
+ .embrace p{
+    color: rgba(167, 167, 167, 1);
+    margin-top: 10px;
+ }
+
+ .embrace{
+   padding: 10px;
+ }
+
+.memor{
+display: flex;
+flex-direction: column-reverse;
+gap: 20px;
+padding: 10px;
+}
+
+.people img{
+   width: 100%;
+}
+
+.mem-txt h1{
+   font-size: 67px;
+   line-height: 60px;
+   color: rgba(255, 108, 60, 1);
+}
+
+.mem-txt p{
+   color: rgba(167, 167, 167, 1);
+   margin-top: 20px;
+   margin-bottom: 158px;
+}
+
+.eco{
+   background-color: rgba(96, 96, 96, 1);
+   border: 0px solid transparent;
+   border-radius:40px 40px 40px 40px;
+   padding-top: 50px;
+   margin-top: -100px;
+}
+
+.explore{
+   position: absolute;
+   right: 32px;
+   z-index: -1;
+}
+
+.explore p{
+   text-transform: uppercase;
+   color: black;
+   -webkit-text-fill-color: transparent; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-size: 80px;
+   line-height: 60px;
+   font-weight: bold;
+}
+
+.explore2{
+   position: absolute;
+   right: 32px;
+   z-index: 1;
+   display: none;
+}
+
+.explore2 p{
+   text-transform: uppercase;
+   color: black;
+   -webkit-text-fill-color: transparent; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-size: 80px;
+   line-height: 60px;
+   font-weight: bold;
+}
+
+.explore3{
+   position: absolute;
+    left: 5%;
+   z-index: 6px;
+  margin-top: -600px;
+  display: none;
+}
+
+.explore3 p{
+   text-transform: uppercase;
+   color: white;
+   -webkit-text-fill-color: transparent; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 80px;
+   line-height: 70px;
+   font-weight: bold;
+   margin-left: 100px;
+}
+
+.side{
+   width: 60px;
+   height: 81vh;
+   background-color: rgba(255, 108, 60, 1);
+   left: -1px;
+   top:-10px;
+   position: absolute;
+   z-index: 10;
+   display: none;
+   border-radius: 0 0 0 40px;
+}
+ 
+.socials{
+   display: flex;
+   padding:15px 15px 15px 0;
+   font-size: 25px;
+   gap: 15px;
+}
+
+.fa-brands{
+   color: white;
+}
+
+.fa-brands:hover{
+   transform: translateY(-10px) !important;
+   transition: ease-in 1ms;
+}
+
+.txt2{
+   padding: 0 10px 0 10px;
+}
+
+.txt2 h1{
+   color: white;
+}
+
+.txt2 p{
+   color: rgba(167, 167, 167, 1);
+   margin: 10px 0 10px 0;
+}
+
+.img1 img{
+   width: 100%;
+}
+
+.img1 p{
+margin-top: -76px;
+margin-bottom: 50px;
+color:rgba(255, 108, 60, 1);
+font-weight: bold;
+font-size: 20px;
+ padding: 5px;
+}
+
+.img2{
+   margin-top: 50px;
+}
+
+.img-all{
+   padding-bottom: 50px;
+}
+
+.img2 img{
+ width: 100%;
+}
+
+.img3 img{
+   width: 100%;
+}
+
+.img2{
+   color: white;
+}
+
+.img2 p{
+   display: none;
+}
+
+.img2 h1{
+   margin-top: -213px;
+   padding: 10px;
+}
+
+.bike7 img{
+   display: none;
+}
+
+.footer{
+   height: 150px;
+   background-color: rgba(34, 34, 34, 1);
+   border-radius: 40px 40px 0 0;
+}
+
+.logo2{
+   padding-top: 20px;
+   width: 30%;
+}
+
+.meniu-two a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+}
+ 
+
+.meniu-two{
+   display: flex;
+   gap: 10px;
+   margin: 10px 0 10px 0;
+}
+
+.socials-two{
+   color: white;
+   display: flex;
+   gap: 10px;
+}
+
+.vy{
+   background-color: rgb(17, 17, 17);
+   display: flex;
+   justify-content: center;
+}
+.vy a{
+   text-decoration: none;
+   color: white;
+}
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+ 
+
+
+.men{
+   color: white;
+   position:absolute;
+   background-color: rgba(34, 34, 34, 0.9);
+  
+   width: 80%;
+   height: 100vh;
+   top: 0;
+   right: -80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   transition: 0.5s ease-in-out;
+   opacity: 0;  
+   visibility: hidden;  
+}
+
+
+.container {
+   position: relative;
+   overflow: hidden; 
+}
+
+.hide{
+   right: 0;
+   opacity: 1;
+   visibility: visible;
+   transition: 0.5s ease-in-out;
+   z-index: 90;
+}
+
+
+.men a{
+   color: white;
+   text-decoration: none;
+   font-size: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0 30px 0;
+   text-transform: uppercase;
+ 
+}
+
+
+.men a:hover{
+   background-color: rgba(255, 108, 60, 1);
+   width: 100%;
+}
+
+.fa-regular{
+   font-size: 50px;
+   margin-top: 50px;
+   cursor: pointer;
+}
+
+.fa-solid{
+   cursor: pointer;
+}
+
+
+
+/* # Mobile */
+@media only screen and (min-width: 480px) {
+   .hero-photo{
+      margin-top: 186px;
+   }
+  
+  
+   .bike-hero img{
+      width: 680px;
+      margin-left: 80px;
+   }
+   .models{
+      padding: 40px 15px;
+   }
+
+   .models-bikes{
+      padding: 0 60px;
+   }
+
+   .img2{
+      padding: 0 50px 0 50px;
+   }
+
+   .img2 p{
+      display: block;
+      padding: 10px;
+   }
+
+   .img2 h1{
+      margin-top: -280px;
+      padding: 10px;
+      max-width: 500px;
+   }
+
+ }
+
+ /* # Tablet */
+@media only screen and (min-width: 768px) {
+   .meniu{
+      display: flex;
+      gap: 40px;
+   }
+
+   .burger{
+      display: none;
+   }
+
+   .hero-photo{
+      margin-top: 47px;
+   }
+  
+  
+   .bike-hero img{
+      width: 780px;
+      margin-left: 218px;
+   }
+
+   .models-bikes{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0 30px;
+      justify-content: center;
+      transition: 1s;
+   }
+
+   .first-bike{
+      max-width: 310px;
+   }
+
+   .models{
+      display: flex ;
+     flex-direction: row;
+     justify-content: center;
+     gap: 20px;
+      align-items: center;
+      padding: 30px 15px;
+      background-color: white;
+      z-index: 2;
+      position: relative;
+   }
+
+   .embrace{
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      gap: 20px;
+   }
+   .embrace h1{
+      max-width: 50%;
+      padding-top: 0;
+   }
+   .embrace p{
+      max-width: 50%;
+      padding-top: 0;
+   }
+
+   .memor{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 70px;
+      }
+      .people img{
+         width: 531px;
+         height: 305px;
+      }
+
+      .explore2{
+         display: block;
+      }
+
+      .img-all{
+         display: flex;
+         justify-content: center;
+         gap: 50px;
+         flex-wrap: wrap;
+      }
+
+      .img1 p{
+         max-width: 300px;
+         margin-top: -88px;
+      }
+
+      .img1 img{
+          width: 350px;
+      }
+
+      .img2{
+         padding: 0 80px 0 80px;
+      }
+
+      .img2 p{
+         display: block;
+      }
+ 
+ .bike7 img{
+   display: block;
+   width: 100%;
+   margin-top: 25px;
+ }
+
+ .img2{
+   padding: 0;
+ }
+
+ .bottom-bikes{
+   display: flex;
+   gap: 50px;
+   padding: 0 20px 0 20px;
+   justify-content: center;
+ }
+
+ .footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.logo2{
+   padding-top: 0px;
+ 
+}
+
+
+ }
+
+ /* # Desktop */
+@media only screen and (min-width: 992px) {
+   .hero-photo{
+      margin-top: 9px;
+   }
+  
+  
+   .bike-hero img{
+      width: 835px;
+      margin-left: 415px;
+   }
+
+   .text1{
+      margin-left: 90px;
+      margin-top: 49px;
+      max-width: 470px;
+      margin-left: 160px;
+   }
+
+   .text1 h1{
+      font-size: 45px;
+   }
+
+   .people img{
+      width: 645px;
+      height: 405px;
+      margin-top: -49px;
+   }
+
+   .mem-txt p{
+      margin-bottom: 192px;
+   }
+   .mem-txt{
+      max-width: 200px;
+   }
+
+   .memor{
+      justify-content: center;
+   }
+
+   .side{
+      display: block;
+   }
+
+   .img1 img{
+      width: 453px;
+   }
+
+   .img3 img{
+      width: 976px;
+   }
+
+   .txt2{
+      display: flex;
+      justify-content: center;
+   }
+
+   .explore3{
+      display: block;
+   }
+
+   .img2 img{
+      width: 600px;
+   }
+
+   .bike7 img{
+      width: 272px;
+   }
+
+   .img2 p {
+      width: 400px;
+   }
+ 
+ }
+
+  /* # 1Huge */
+@media only screen and (min-width: 1280px) {
+   .logo svg{
+      width: 250px;
+   }
+
+   .meniu a{
+   font-size: 20px;
+   }
+
+   .nav{
+      margin-top: 30px;
+
+   }
+
+   .hero{
+      margin:-128px 80px 0 80px;
+      display: flex;
+      justify-content: center;
+   }
+   .hero-info{
+      margin-right: -88px;
+   }
+
+   .text1{
+      position: static;
+   }
+ 
+   .bike-hero img{
+      margin: 0;
+      width: 935px;
+      margin-top: -30px;
+   }
+
+   .first-bike{
+      max-width: 430px;
+   }
+
+   .undercover{
+      margin:55px 50px 0 50px;
+   }
+
+   .footer{
+      margin: 0 50px 0 50px;
+ 
+   }
+
+  
+
+   .mem-txt{
+      max-width: 260px;
+   }
+
+   .memor{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 150px;
+      padding: 18px;
+      }
+
+      .embrace{
+         display: flex;
+         justify-content: center;
+         padding: 80px;
+         gap: 50px;
+      }
+
+      .embrace h1{
+         max-width: 600px;
+         padding-top: 0;
+      }
+      .embrace p{
+         max-width: 600px;
+         padding-top: 0;
+      }
+
+      .side{
+        left: 79px;
+      }
+
+      .models h1{
+         font-size: 50px;
+      }
+      
+      .models{
+         justify-content: space-around;
+      }
+
+      .side{
+         height: 80.6vh;
+      }
+
+      .eco{
+         margin: -50px 90px 0 90px;
+      }
+
+      .img1 img{
+         width: 466px;
+      }
+
+      .txt2 p{
+         max-width: 400px;
+         font-size: 18px;
+      }
+      .txt2 h1{
+         max-width: 500px;
+         margin-bottom: 80px;
+         font-size: 38px;
+      }
+
+      .txt2{
+         gap: 100px;
+      }
+
+      .img3 img{
+         width: 982px;
+      }
+    
+      .img2 img{
+         width: 822px;
+      }
+
+      .bike7 img{
+         width: 336px;
+      }
+
+      .img2 h1{
+         margin-top: -500px;
+      }
+
+      .footer{
+         gap: 90px;
+         height: 99px;
+      }
+
+      .logo2{
+         width: 357px;
+      }
+
+      .socials-two{
+         font-size: 25px;
+      }
+
+      .vy{
+         margin: 0 50px 0 50px;
+      }
+
+      .logo{
+         padding-left: 100px;
+      }
+
+      .meniu-two{
+         gap:35px;
+      }
+ 
+      .socials-two{
+         gap: 20px;
+      }
+}
+   
+
+ 
