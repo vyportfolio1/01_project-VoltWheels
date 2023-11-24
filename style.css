@@ -43,7 +43,7 @@
  }
 
  .hero{
-    height: 80vh;
+    height: 90vh;
     background-image: linear-gradient(to right bottom, #1b1d1f, #222426, #2a2c2e, #323335, #3a3b3d);    margin-top: -85px;
     padding: 15px;
     border: 1px solid transparent;
@@ -52,7 +52,7 @@
  }
 
  .hero-info{
-    padding-top: 150px;
+    padding-top: 192px;
     display: flex;
     position: relative;
  }
@@ -90,6 +90,8 @@
  .text1 h1{
     text-transform: uppercase;
     margin-bottom: 15px;
+    font-family: 'Rationale', sans-serif;
+    font-size: 48px;
  }
 
  .hero-b{
@@ -103,6 +105,7 @@
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    color: white;
  }
 
  
@@ -132,7 +135,7 @@
  }
 
  .models h1{
-    color: rgba(255, 108, 60, 1);
+    color: black;
     text-transform: uppercase;
  }
 
@@ -149,12 +152,25 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 0 10px;
+    padding: 10px 15px;
  }
 
- .txt p{
+
+
+ .txt{
+   display: flex;
+   align-items: baseline;
+   gap: 20px;
+ }
+
+ .txt a{
     font-size: 25px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 35px;
+    padding-bottom: 10px;
  }
 
  .text1 p{
@@ -170,6 +186,7 @@
     background-color: rgba(27, 29, 31, 1);
     margin-bottom: 15px;
     color: white;
+    border-radius: 40px;
  }
 
  .first-bike img{
@@ -194,6 +211,8 @@
  .embrace h1{
     color: white;
     padding-top: 40px;
+    font-family: 'Rationale', sans-serif;
+    font-size: 40px;
  }
 
  
@@ -294,7 +313,7 @@ padding: 10px;
 
 .side{
    width: 60px;
-   height: 81vh;
+   height: 91vh;
    background-color: rgba(255, 108, 60, 1);
    left: -1px;
    top:-10px;
@@ -302,6 +321,10 @@ padding: 10px;
    z-index: 10;
    display: none;
    border-radius: 0 0 0 40px;
+}
+
+.bg-carr{
+   background-color: rgba(255, 108, 60, 1);
 }
  
 .socials{
@@ -326,6 +349,7 @@ padding: 10px;
 
 .txt2 h1{
    color: white;
+   font-family: 'Rationale', sans-serif;
 }
 
 .txt2 p{
@@ -344,6 +368,7 @@ color:rgba(255, 108, 60, 1);
 font-weight: bold;
 font-size: 20px;
  padding: 5px;
+ text-transform: uppercase;
 }
 
 .img2{
@@ -373,6 +398,7 @@ font-size: 20px;
 .img2 h1{
    margin-top: -213px;
    padding: 10px;
+   font-family: 'Rationale', sans-serif;
 }
 
 .bike7 img{
@@ -490,6 +516,14 @@ font-size: 20px;
    cursor: pointer;
 }
 
+.fa-heart{
+   font-size: 20px;
+ }
+
+ .vy p{
+   color: white;
+ }
+
 
 
 /* # Mobile */
@@ -596,7 +630,7 @@ font-size: 20px;
       padding: 70px;
       }
       .people img{
-         width: 531px;
+         width: 487px;
          height: 305px;
       }
 
@@ -613,7 +647,7 @@ font-size: 20px;
 
       .img1 p{
          max-width: 300px;
-         margin-top: -88px;
+         margin-top: -107px;
       }
 
       .img1 img{
@@ -657,6 +691,9 @@ font-size: 20px;
    padding-top: 0px;
  
 }
+.txt2 h1{
+   font-size: 40px;
+}
 
 
  }
@@ -676,12 +713,12 @@ font-size: 20px;
    .text1{
       margin-left: 90px;
       margin-top: 49px;
-      max-width: 470px;
+      max-width: 490px;
       margin-left: 160px;
    }
 
    .text1 h1{
-      font-size: 45px;
+      font-size: 75px;
    }
 
    .people img{
@@ -752,7 +789,7 @@ font-size: 20px;
    }
 
    .hero{
-      margin:-128px 80px 0 80px;
+      margin:-128px 60px 0 60px;
       display: flex;
       justify-content: center;
    }
@@ -807,6 +844,7 @@ font-size: 20px;
       .embrace h1{
          max-width: 600px;
          padding-top: 0;
+         
       }
       .embrace p{
          max-width: 600px;
@@ -814,7 +852,7 @@ font-size: 20px;
       }
 
       .side{
-        left: 79px;
+        left: 60px;
       }
 
       .models h1{
@@ -826,7 +864,7 @@ font-size: 20px;
       }
 
       .side{
-         height: 80.6vh;
+         height: 90.6vh;
       }
 
       .eco{

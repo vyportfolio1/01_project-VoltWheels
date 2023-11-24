@@ -15,3 +15,24 @@ closeMeniu.addEventListener("click", ()=>{
     container.classList.add("container")
 })
 
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+const heartIcons = document.querySelectorAll('.fa-heart');
+
+ 
+heartIcons.forEach((heartIcon, index) => {
+    heartIcon.addEventListener('click', function() {
+        heartIcon.classList.toggle('fa-solid');
+        heartIcon.classList.toggle('fa-regular');
+    });
+});
