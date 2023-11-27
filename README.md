@@ -2,4 +2,5 @@
 
 Website "VoltWheels" crafted with HTML, CSS, and Vanilla JavaScript.
 
-![bike-w-01](https://github.com/vyportfolio1/01_project-VoltWheels/assets/136511458/d7501706-d093-463a-a159-401363428d6b)
+
+![01-VoltWheels](https://github.com/vyportfolio1/01_project-VoltWheels/assets/136511458/30364a4a-dbf1-4dc7-9ca5-9549c2bcf900)
